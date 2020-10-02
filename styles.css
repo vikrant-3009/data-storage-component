@@ -1,0 +1,244 @@
+body{
+    background-color: hsl(243, 100%, 93%);
+}
+
+@media screen and (max-width: 480px){
+    
+    body{
+        background-image: url("images/bg-mobile.png");
+        background-size: cover;
+    }
+}
+
+.flex-container{
+    position: relative;
+    bottom: 358px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 480px){
+    .flex-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+.main-container{
+    display: flex;
+    margin: 100px auto auto;
+    background-color: hsl(229, 57%, 11%);
+    height: 490px;
+    width: 95%;
+}
+
+@media screen and (max-width: 480px){
+    .main-container{
+        background: none;
+    }
+}
+
+.image{
+    align-self: flex-end;
+    text-align: center;
+}
+
+@media screen and (max-width: 480px){
+    .image{
+        background-image: none;
+        position: relative;
+        right: 500px;
+}
+}
+
+.left-container{
+    background-color: hsl(228, 56%, 26%);
+    height: 150px;
+    width: 265px;
+    margin-top: 5px;
+    margin-right: 10px;
+    border-radius: 10px 70px 10px 10px;
+}
+
+@media screen and (max-width: 480px) and (min-width: 0px){
+    .left-container{
+        margin: 10px auto;
+        width: 60%;
+    }
+}
+
+.flex-icons{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 8px;
+    margin-left: 23px;
+}
+
+.flex-icons > div{
+    background-color: hsl(229, 57%, 11%);
+    height: 20px;
+    width: 20px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 7px;
+    
+}
+
+.logo{
+    margin-top: 28px;
+    margin-left: 20px;
+    padding-top: 5px;
+    padding-left: 15px;
+}
+
+
+.right-container{
+    background-color: hsl(228, 56%, 26%);
+    height: 100px;
+    width: 400px;
+    margin-top: 25px;
+    margin-left: 10px;
+    padding: 10px 30px 20px;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 480px) {
+    .right-container{
+        margin: 10px auto;
+        width: 70%;
+    }
+}
+
+.memory-left-box{
+    position: relative;
+    bottom: 45px;
+    left: 255px;
+}
+
+@media screen and (max-width: 480px){
+    .memory-left-box{
+        position: relative;
+        top: 110px;
+        left: 25%;
+    }
+}
+
+.memory-left-box > div{
+    background-color: white;
+    text-align: center;
+    height: 55px;
+    width: 125px;
+    padding-top: 5px;
+    border-radius: 6px;
+}
+
+.memory-block{
+    position: relative;
+    bottom: 45px;
+}
+
+.one-85{
+    color: hsl(229, 57%, 11%);
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+}
+
+.gb{
+    color: grey;
+    font-weight: 400;
+    font-size: 10px;
+}
+
+.memory-used-info{
+    
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.memory{
+    font-weight: 700;
+}
+
+.memory-bar{
+    
+    height: 10px;
+    width: 380px;
+    background-color: aliceblue;
+    background-image: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%), hsl(229, 56%, 11%) 87%);
+    border-radius: 15px;
+}
+
+@media screen and (max-width: 480px){
+    .memory-bar{
+        width: auto;
+    }
+}
+
+.dot{
+    position: relative;
+    left: 290px;
+    background-color: white;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 480px){
+    .dot{
+        position: relative;
+        left: 78%;
+    }
+}
+
+.below-memory-bar{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+}
+
+.below-memory-bar > p{
+    margin-top: 8px;
+}
+
+.gb1000{
+    position: relative;
+    left: 72%;
+}
+
+@media screen and (max-width: 480px){
+    .gb1000{
+        position: relative;
+        left: 65%;
+    }
+}
+
+.attribution{
+    position: relative;
+    bottom: 100px;
+    font-size: 11px; text-align: center; 
+    color: hsl(229, 56%, 11%); 
+    font-size: 13px;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 480px){
+    .attribution{
+        color: white;
+        position: relative;
+        bottom: 250px;
+    }
+}
+
+.name:hover , .challenger:hover{
+    font-weight: 700;
+    color: red;
+}
+
